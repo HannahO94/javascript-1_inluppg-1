@@ -49,7 +49,7 @@ function Create2DArray(size){
     for (let i = 0; i < size; i++){
       arr[i] = []
       for(let j = 0; j<size; j++) {
-        newButton = document.createElement('button')        
+        newButton = document.createElement('button')     
         arr[i] = push(newButton)
     //allrows[i].appendChild(newButton)
     //document.body.append(newButton)
@@ -58,7 +58,7 @@ function Create2DArray(size){
  return arr
 } 
 }
-document.body.appendChild(Create2DArray(25)) 
+document.body.appendChild(Create2DArray(25)) // 2D array test 
 
 
 /*function Create2DArray(rows) {
