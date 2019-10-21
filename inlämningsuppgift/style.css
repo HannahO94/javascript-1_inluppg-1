@@ -1,0 +1,38 @@
+button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid;
+    border-color: black; 
+    background: white;
+    contain: strict;
+    margin-left: 2px;
+    font-size: 35px;
+    
+}
+
+body {
+    background: azure;
+    text-align:center;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+#whos-playin {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+.cool {
+    color: blue;
+}
+.hot {
+    color: red;
+}
+.player1{
+    color:green;
+}
+.player2{
+    color: purple
+}
